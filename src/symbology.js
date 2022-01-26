@@ -1,6 +1,6 @@
 export const DEFAULT_OPTIONS = {
-  activeColor: '#ABE67E',
-  completedColor: '#C8F2BE'
+  activeColor: '#f700eb',
+  completedColor: '#f700eb'
 };
 
 export default class Symbology {
@@ -12,12 +12,12 @@ export default class Symbology {
     const symbols = {
       measureDrag: {
         clickable: false,
-        radius: 4,
+        radius: 5,
         color: this._options.activeColor,
-        weight: 2,
-        opacity: 0.7,
+        weight: 4,
+        opacity: 0.9,
         fillColor: this._options.activeColor,
-        fillOpacity: 0.5,
+        fillOpacity: 0.9,
         className: 'layer-measuredrag'
       },
       measureArea: {

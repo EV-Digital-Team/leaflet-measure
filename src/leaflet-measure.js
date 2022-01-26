@@ -57,7 +57,7 @@ L.Control.Measure = L.Control.extend({
     primaryLengthUnit: 'feet',
     secondaryLengthUnit: 'miles',
     primaryAreaUnit: 'acres',
-    captureZIndex: 10000, // z-index of the marker used to capture measure events
+    captureZIndex: 100000, // z-index of the marker used to capture measure events
     popupOptions: {
       className: 'leaflet-measure-resultpopup',
       autoPanPadding: [10, 10]
